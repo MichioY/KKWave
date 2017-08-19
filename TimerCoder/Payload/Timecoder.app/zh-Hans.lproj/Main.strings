@@ -1,0 +1,65 @@
+
+/* Class = "UILabel"; text = "WWVB, Fort Collins, USA"; ObjectID = "M30-Ne-eyh"; */
+"M30-Ne-eyh.text" = "WWVB, 科林斯堡, 美国";
+
+"G3j-Aq-4U7.text" = "怎样联系？";
+
+/* Class = "UITextView"; text = "1. 将iPhone/iPad的音量调整到最大;\n2. 点击“开始发送”按钮;\n3. 将电波表/钟靠近iPhone/iPad的扬声器;\n4. 开启电波表/钟手动接收。"; ObjectID = "VVY-3g-0DA"; */
+"wTZ-s6-ccl.text" = "1. 将iPhone/iPad的音量调整到最大。\n2. 点击“开始发送”按钮。\n3. 将电波表/钟靠近iPhone/iPad的扬声器。\n4. 开启电波表/钟手动接收，同步过程可能需要4-10分钟。";
+
+"gQh-1l-UyQ.text" = "怎样使用？";
+
+"stY-xq-u5n.text" = "可发送电子邮件到 razor.ren@gmail.com，或访问网站 https://cw.rzapps.com";
+
+"WfA-Z7-faA.title" = "信息";
+
+/* Class = "UINavigationItem"; title = "发射台"; ObjectID = "d7v-IP-ZSW"; */
+"d7v-IP-ZSW.title" = "发射台";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "e3b-FE-GIz"; */
+"e3b-FE-GIz.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "开始发送"; ObjectID = "k8Y-7Y-Kiq"; */
+"k8Y-7Y-Kiq.normalTitle" = "开始发送";
+
+/* Class = "UILabel"; text = "MANUAL"; ObjectID = "odL-g1-0gS"; */
+"odL-g1-0gS.text" = "手动设置";
+
+/* Class = "UILabel"; text = "----/--/-- --- (---)"; ObjectID = "p62-Fb-eVe"; */
+"p62-Fb-eVe.text" = "----/--/-- --- (---)";
+
+/* Class = "UILabel"; text = "MSF,  安托尔, 坎布里亚郡, 英国"; ObjectID = "pIT-wz-X80"; */
+"pIT-wz-X80.text" = "MSF,  安托尔, 坎布里亚郡, 英国";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "pvD-ar-SUR"; */
+"pvD-ar-SUR.title" = "设置";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "rpV-Fc-afC"; */
+"22d-Yc-TXn.title" = "取消";
+"EKt-bN-BpZ.title" = "保存";
+
+/* Class = "UILabel"; text = "DCF77, 曼福林根, 德国"; ObjectID = "rwg-a1-xqf"; */
+"rwg-a1-xqf.text" = "DCF77, 曼福林根, 德国";
+
+/* Class = "UILabel"; text = "发射台"; ObjectID = "swN-4E-qaj"; */
+"swN-4E-qaj.text" = "发射台";
+
+/* Class = "UILabel"; text = "BPC, Shangqiu, China"; ObjectID = "tiL-nY-Fii"; */
+"sNM-42-BQT.text" = "BPC, 商丘, 中国";
+
+/* Class = "UILabel"; text = "Auto, Based on local timezone"; ObjectID = "vNa-pI-ZeV"; */
+"vNa-pI-ZeV.text" = "自动, 根据当前时区确定";
+
+/* Class = "UIButton"; normalTitle = "设置"; ObjectID = "xlO-0J-JRr"; */
+"xlO-0J-JRr.normalTitle" = "设置";
+
+/* Class = "UILabel"; text = "JJY, Fukushima, Japan"; ObjectID = "z9m-mj-lcM"; */
+"lcZ-I8-QPs.text" = "JJY, 九州, 日本";
+
+"c9u-Xv-t99.text" = "欢迎！";
+"Qjj-CO-eYf.text" = "如何使用";
+"1YQ-J1-7aK.headerTitle" = "发射台";
+"59N-QI-t0z.text" = "自动选择电波表时区";
+"inl-yY-uOj.text" = "10分钟后自动停止发送";
+
+

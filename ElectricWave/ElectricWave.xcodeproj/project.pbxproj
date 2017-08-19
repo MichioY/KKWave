@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D231B0E1F46856D007E1724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B0D1F46856D007E1724 /* main.m */; };
+		3D231B111F46856D007E1724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B101F46856D007E1724 /* AppDelegate.m */; };
+		3D231B141F46856D007E1724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B131F46856D007E1724 /* ViewController.m */; };
+		3D231B171F46856D007E1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D231B151F46856D007E1724 /* Main.storyboard */; };
+		3D231B191F46856D007E1724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D231B181F46856D007E1724 /* Assets.xcassets */; };
+		3D231B1C1F46856D007E1724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D231B1A1F46856D007E1724 /* LaunchScreen.storyboard */; };
+		3D231B271F46856E007E1724 /* ElectricWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B261F46856E007E1724 /* ElectricWaveTests.m */; };
+		3D231B321F46856E007E1724 /* ElectricWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B311F46856E007E1724 /* ElectricWaveUITests.m */; };
+		3D231B411F4685CB007E1724 /* NSString+Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B401F4685CB007E1724 /* NSString+Converter.m */; };
+		3D231B441F4688A9007E1724 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B431F4688A9007E1724 /* NSDate+YYAdd.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D231B231F46856E007E1724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D231B011F46856D007E1724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D231B081F46856D007E1724;
+			remoteInfo = ElectricWave;
+		};
+		3D231B2E1F46856E007E1724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D231B011F46856D007E1724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D231B081F46856D007E1724;
+			remoteInfo = ElectricWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D231B091F46856D007E1724 /* ElectricWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D231B0D1F46856D007E1724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D231B0F1F46856D007E1724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D231B101F46856D007E1724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D231B121F46856D007E1724 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D231B131F46856D007E1724 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D231B161F46856D007E1724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D231B181F46856D007E1724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D231B1B1F46856D007E1724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D231B1D1F46856D007E1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D231B221F46856E007E1724 /* ElectricWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D231B261F46856E007E1724 /* ElectricWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricWaveTests.m; sourceTree = "<group>"; };
+		3D231B281F46856E007E1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D231B2D1F46856E007E1724 /* ElectricWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D231B311F46856E007E1724 /* ElectricWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricWaveUITests.m; sourceTree = "<group>"; };
+		3D231B331F46856E007E1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D231B3F1F4685CB007E1724 /* NSString+Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Converter.h"; sourceTree = "<group>"; };
+		3D231B401F4685CB007E1724 /* NSString+Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Converter.m"; sourceTree = "<group>"; };
+		3D231B421F4688A9007E1724 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
+		3D231B431F4688A9007E1724 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		3D231B451F4688B7007E1724 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D231B061F46856D007E1724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D231B1F1F46856E007E1724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D231B2A1F46856E007E1724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D231B001F46856D007E1724 = {
+			isa = PBXGroup;
+			children = (
+				3D231B0B1F46856D007E1724 /* ElectricWave */,
+				3D231B251F46856E007E1724 /* ElectricWaveTests */,
+				3D231B301F46856E007E1724 /* ElectricWaveUITests */,
+				3D231B0A1F46856D007E1724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D231B0A1F46856D007E1724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D231B091F46856D007E1724 /* ElectricWave.app */,
+				3D231B221F46856E007E1724 /* ElectricWaveTests.xctest */,
+				3D231B2D1F46856E007E1724 /* ElectricWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D231B0B1F46856D007E1724 /* ElectricWave */ = {
+			isa = PBXGroup;
+			children = (
+				3D231B0F1F46856D007E1724 /* AppDelegate.h */,
+				3D231B101F46856D007E1724 /* AppDelegate.m */,
+				3D231B121F46856D007E1724 /* ViewController.h */,
+				3D231B131F46856D007E1724 /* ViewController.m */,
+				3D231B151F46856D007E1724 /* Main.storyboard */,
+				3D231B181F46856D007E1724 /* Assets.xcassets */,
+				3D231B1A1F46856D007E1724 /* LaunchScreen.storyboard */,
+				3D231B1D1F46856D007E1724 /* Info.plist */,
+				3D231B0C1F46856D007E1724 /* Supporting Files */,
+				3D231B3F1F4685CB007E1724 /* NSString+Converter.h */,
+				3D231B401F4685CB007E1724 /* NSString+Converter.m */,
+				3D231B421F4688A9007E1724 /* NSDate+YYAdd.h */,
+				3D231B431F4688A9007E1724 /* NSDate+YYAdd.m */,
+				3D231B451F4688B7007E1724 /* YYKitMacro.h */,
+			);
+			path = ElectricWave;
+			sourceTree = "<group>";
+		};
+		3D231B0C1F46856D007E1724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D231B0D1F46856D007E1724 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D231B251F46856E007E1724 /* ElectricWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D231B261F46856E007E1724 /* ElectricWaveTests.m */,
+				3D231B281F46856E007E1724 /* Info.plist */,
+			);
+			path = ElectricWaveTests;
+			sourceTree = "<group>";
+		};
+		3D231B301F46856E007E1724 /* ElectricWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D231B311F46856E007E1724 /* ElectricWaveUITests.m */,
+				3D231B331F46856E007E1724 /* Info.plist */,
+			);
+			path = ElectricWaveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D231B081F46856D007E1724 /* ElectricWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D231B361F46856E007E1724 /* Build configuration list for PBXNativeTarget "ElectricWave" */;
+			buildPhases = (
+				3D231B051F46856D007E1724 /* Sources */,
+				3D231B061F46856D007E1724 /* Frameworks */,
+				3D231B071F46856D007E1724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricWave;
+			productName = ElectricWave;
+			productReference = 3D231B091F46856D007E1724 /* ElectricWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D231B211F46856E007E1724 /* ElectricWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D231B391F46856E007E1724 /* Build configuration list for PBXNativeTarget "ElectricWaveTests" */;
+			buildPhases = (
+				3D231B1E1F46856E007E1724 /* Sources */,
+				3D231B1F1F46856E007E1724 /* Frameworks */,
+				3D231B201F46856E007E1724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D231B241F46856E007E1724 /* PBXTargetDependency */,
+			);
+			name = ElectricWaveTests;
+			productName = ElectricWaveTests;
+			productReference = 3D231B221F46856E007E1724 /* ElectricWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D231B2C1F46856E007E1724 /* ElectricWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D231B3C1F46856E007E1724 /* Build configuration list for PBXNativeTarget "ElectricWaveUITests" */;
+			buildPhases = (
+				3D231B291F46856E007E1724 /* Sources */,
+				3D231B2A1F46856E007E1724 /* Frameworks */,
+				3D231B2B1F46856E007E1724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D231B2F1F46856E007E1724 /* PBXTargetDependency */,
+			);
+			name = ElectricWaveUITests;
+			productName = ElectricWaveUITests;
+			productReference = 3D231B2D1F46856E007E1724 /* ElectricWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D231B011F46856D007E1724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Michio;
+				TargetAttributes = {
+					3D231B081F46856D007E1724 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Z8WNJ978J;
+						ProvisioningStyle = Automatic;
+					};
+					3D231B211F46856E007E1724 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Z8WNJ978J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D231B081F46856D007E1724;
+					};
+					3D231B2C1F46856E007E1724 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Z8WNJ978J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D231B081F46856D007E1724;
+					};
+				};
+			};
+			buildConfigurationList = 3D231B041F46856D007E1724 /* Build configuration list for PBXProject "ElectricWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D231B001F46856D007E1724;
+			productRefGroup = 3D231B0A1F46856D007E1724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D231B081F46856D007E1724 /* ElectricWave */,
+				3D231B211F46856E007E1724 /* ElectricWaveTests */,
+				3D231B2C1F46856E007E1724 /* ElectricWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D231B071F46856D007E1724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D231B1C1F46856D007E1724 /* LaunchScreen.storyboard in Resources */,
+				3D231B191F46856D007E1724 /* Assets.xcassets in Resources */,
+				3D231B171F46856D007E1724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D231B201F46856E007E1724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D231B2B1F46856E007E1724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D231B051F46856D007E1724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D231B141F46856D007E1724 /* ViewController.m in Sources */,
+				3D231B111F46856D007E1724 /* AppDelegate.m in Sources */,
+				3D231B411F4685CB007E1724 /* NSString+Converter.m in Sources */,
+				3D231B0E1F46856D007E1724 /* main.m in Sources */,
+				3D231B441F4688A9007E1724 /* NSDate+YYAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D231B1E1F46856E007E1724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D231B271F46856E007E1724 /* ElectricWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D231B291F46856E007E1724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D231B321F46856E007E1724 /* ElectricWaveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D231B241F46856E007E1724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D231B081F46856D007E1724 /* ElectricWave */;
+			targetProxy = 3D231B231F46856E007E1724 /* PBXContainerItemProxy */;
+		};
+		3D231B2F1F46856E007E1724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D231B081F46856D007E1724 /* ElectricWave */;
+			targetProxy = 3D231B2E1F46856E007E1724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D231B151F46856D007E1724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D231B161F46856D007E1724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D231B1A1F46856D007E1724 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D231B1B1F46856D007E1724 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D231B341F46856E007E1724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D231B351F46856E007E1724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D231B371F46856E007E1724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				INFOPLIST_FILE = ElectricWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D231B381F46856E007E1724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				INFOPLIST_FILE = ElectricWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D231B3A1F46856E007E1724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				INFOPLIST_FILE = ElectricWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricWave.app/ElectricWave";
+			};
+			name = Debug;
+		};
+		3D231B3B1F46856E007E1724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				INFOPLIST_FILE = ElectricWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricWave.app/ElectricWave";
+			};
+			name = Release;
+		};
+		3D231B3D1F46856E007E1724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				INFOPLIST_FILE = ElectricWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectricWave;
+			};
+			name = Debug;
+		};
+		3D231B3E1F46856E007E1724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				INFOPLIST_FILE = ElectricWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectricWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D231B041F46856D007E1724 /* Build configuration list for PBXProject "ElectricWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D231B341F46856E007E1724 /* Debug */,
+				3D231B351F46856E007E1724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D231B361F46856E007E1724 /* Build configuration list for PBXNativeTarget "ElectricWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D231B371F46856E007E1724 /* Debug */,
+				3D231B381F46856E007E1724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D231B391F46856E007E1724 /* Build configuration list for PBXNativeTarget "ElectricWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D231B3A1F46856E007E1724 /* Debug */,
+				3D231B3B1F46856E007E1724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D231B3C1F46856E007E1724 /* Build configuration list for PBXNativeTarget "ElectricWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D231B3D1F46856E007E1724 /* Debug */,
+				3D231B3E1F46856E007E1724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D231B011F46856D007E1724 /* Project object */;
+}

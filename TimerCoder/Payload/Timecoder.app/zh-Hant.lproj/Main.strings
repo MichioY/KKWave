@@ -1,0 +1,74 @@
+
+/* Class = "UITableViewSection"; headerTitle = "Station"; ObjectID = "1YQ-J1-7aK"; */
+"1YQ-J1-7aK.headerTitle" = "發射站";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "22d-Yc-TXn"; */
+"22d-Yc-TXn.title" = "取消";
+
+/* Class = "UILabel"; text = "Auto select watch timezone"; ObjectID = "59N-QI-t0z"; */
+"59N-QI-t0z.text" = "自動選擇電波表時區";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "EKt-bN-BpZ"; */
+"EKt-bN-BpZ.title" = "儲存";
+
+/* Class = "UILabel"; text = "Contact ?"; ObjectID = "G3j-Aq-4U7"; */
+"G3j-Aq-4U7.text" = "怎樣聯繫 ?";
+
+/* Class = "UILabel"; text = "WWVB, Fort Collins, USA"; ObjectID = "M30-Ne-eyh"; */
+"M30-Ne-eyh.text" = "WWVB, 科林斯堡, 美國";
+
+/* Class = "UILabel"; text = "How to use"; ObjectID = "Qjj-CO-eYf"; */
+"Qjj-CO-eYf.text" = "如何使用";
+
+/* Class = "UILabel"; text = "Acquiring accurate time from network"; ObjectID = "VPc-sP-pxT"; */
+"VPc-sP-pxT.text" = "正在從網絡獲取準確時間";
+
+/* Class = "UINavigationItem"; title = "Information"; ObjectID = "WfA-Z7-faA"; */
+"WfA-Z7-faA.title" = "信息";
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "c9u-Xv-t99"; */
+"c9u-Xv-t99.text" = "歡迎!";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "d7v-IP-ZSW"; */
+"d7v-IP-ZSW.title" = "設定";
+
+/* Class = "UITableViewSection"; headerTitle = "Advanced"; ObjectID = "f2U-y8-bVf"; */
+"f2U-y8-bVf.headerTitle" = "進階設定";
+
+/* Class = "UITextView"; text = "Your advice and suggestions will be much appreciated, please contact cw@rzapps.com or access https://cw.rzapps.com"; ObjectID = "fxB-aK-aD8"; */
+"fxB-aK-aD8.text" = "您的反饋相當重要，請聯系cw@rzapps.com或訪問https://cw.rzapps.com";
+
+/* Class = "UILabel"; text = "How ?"; ObjectID = "gQh-1l-UyQ"; */
+"gQh-1l-UyQ.text" = "怎樣使用 ?";
+
+/* Class = "UIButton"; normalTitle = "Transmit"; ObjectID = "k8Y-7Y-Kiq"; */
+"k8Y-7Y-Kiq.normalTitle" = "開始發送";
+
+/* Class = "UILabel"; text = "JJY, Fukuoka, Japan"; ObjectID = "lcZ-I8-QPs"; */
+"lcZ-I8-QPs.text" = "JJY, 九州, 日本";
+
+/* Class = "UIBarButtonItem"; title = "OK"; ObjectID = "o88-3j-FjD"; */
+"o88-3j-FjD.title" = "OK";
+
+/* Class = "UILabel"; text = "----/--/-- --- (---)"; ObjectID = "p62-Fb-eVe"; */
+"p62-Fb-eVe.text" = "----/--/-- --- (---)";
+
+/* Class = "UILabel"; text = "MSF,  Anthorn, Cumbria, UK"; ObjectID = "pIT-wz-X80"; */
+"pIT-wz-X80.text" = "MSF,  安托爾, 坎布裏亞郡, 英國";
+
+/* Class = "UILabel"; text = "DCF77, Mainflingen, Germany"; ObjectID = "rwg-a1-xqf"; */
+"rwg-a1-xqf.text" = "DCF77, 曼福林根, 德國";
+
+/* Class = "UILabel"; text = "BPC, Shangqiu, China"; ObjectID = "sNM-42-BQT"; */
+"sNM-42-BQT.text" = "BPC, 商丘, 中國";
+
+/* Class = "UILabel"; text = "Auto, Based on local timezone"; ObjectID = "vNa-pI-ZeV"; */
+"vNa-pI-ZeV.text" = "自動, 基於本地時區";
+
+/* Class = "UILabel"; text = "1. Increase iPhone/iPad volume to maximum.\n2. Tap the 'Transmit' button.\n3. Place your radio watch/clock close to iPhone/iPad speaker.\n4. Set your radio watch/clock in manual reception mode, the synchronize process may take up to 10 minutes."; ObjectID = "wTZ-s6-ccl"; */
+"wTZ-s6-ccl.text" = "1. 將iPhone/iPad的音量調整到最大。\n2. 點擊“開始發送”按鈕。\n3. 將電波表/鐘靠近iPhone/iPad的揚聲器。\n4. 開啟電波表/鐘手動接收，同步過程可能需要4-10分鐘。";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "xlO-0J-JRr"; */
+"xlO-0J-JRr.normalTitle" = "設定";
+
+"inl-yY-uOj.text" = "10分鍾後自動停止發送";
