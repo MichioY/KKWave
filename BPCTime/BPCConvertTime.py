@@ -85,9 +85,16 @@ def time2code(date_time, dt = datetime.timedelta(0)):
     code2 = sec1 + p3 +sec2 + p4
     print ('16. code2:%s'% code2)
 
-    bin2four = {'00':'1','01':'2','10':'3','11':'4'}#to base4
-    print ('17. bin2four:%s'% bin2four)
+    bin2four = {'00':'1',
+                '01':'2',
+                '10':'3',
+                '11':'4'}#to base4
+    # print ('17. bin2four:%s'% bin2four)
 
+
+    for i in range(len(code2) / 2):
+        print ("range:%s" % i)
+    print ("bin2for:%s" % [bin2four[code2[2*i:2*i+2]] for i in range(len(code2)/2)])
     return '0'+''.join([bin2four[code2[2*i:2*i+2]] for i in range(len(code2)/2)])
 
 

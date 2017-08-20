@@ -137,11 +137,20 @@
     
     NSInteger code2Length = code2.length/2;
     
-//     code2[2*i:2*i+2]
-//    for (NSInteger i in <#collection#>) {
-//        <#statements#>
+//    NSString *sec = [NSString stringWithFormat:@"%@%@",
+//                     [timeBinaryMArray1 componentsJoinedByString:@""],
+//                     [timeBinaryMArray2 componentsJoinedByString:@""]];
+    NSMutableArray *code2MArray = [NSMutableArray arrayWithCapacity:code2Length];
+//    for (NSInteger i = 0; i <= code2Length; i++) {
+//        
+//        NSString *tempString = bin2Four objectForKey:<#(nonnull id)#>
+//        code2MArray addObject:<#(nonnull id)#>
 //    }
-//    
+////     code2[2*i:2*i+2]
+////    for (NSInteger i in <#collection#>) {
+////        <#statements#>
+////    }
+////    
     
     return resultString;
 }
