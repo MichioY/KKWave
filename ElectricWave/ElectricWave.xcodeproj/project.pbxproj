@@ -15,8 +15,14 @@
 		3D231B1C1F46856D007E1724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D231B1A1F46856D007E1724 /* LaunchScreen.storyboard */; };
 		3D231B271F46856E007E1724 /* ElectricWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B261F46856E007E1724 /* ElectricWaveTests.m */; };
 		3D231B321F46856E007E1724 /* ElectricWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B311F46856E007E1724 /* ElectricWaveUITests.m */; };
-		3D231B411F4685CB007E1724 /* NSString+Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B401F4685CB007E1724 /* NSString+Converter.m */; };
-		3D231B441F4688A9007E1724 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D231B431F4688A9007E1724 /* NSDate+YYAdd.m */; };
+		3D8277181F4ACB14004F652E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8277171F4ACB14004F652E /* CFNetwork.framework */; };
+		3D8277241F4AD247004F652E /* ntp.hosts in Resources */ = {isa = PBXBuildFile; fileRef = 3D8277231F4AD247004F652E /* ntp.hosts */; };
+		3D8277291F4ADA61004F652E /* NSString+Time2Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8277281F4ADA61004F652E /* NSString+Time2Code.m */; };
+		3D8277301F4BD4E7004F652E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D82772F1F4BD4E7004F652E /* AudioToolbox.framework */; };
+		3D8277311F4BD4F1004F652E /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8277251F4ADA39004F652E /* AudioUnit.framework */; };
+		3D8277321F4BD4F6004F652E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D82772A1F4ADBBD004F652E /* AVFoundation.framework */; };
+		3D928E981F4AC997007F4B9B /* NSString+Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D928E921F4AC997007F4B9B /* NSString+Converter.m */; };
+		3D928E991F4AC997007F4B9B /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D928E951F4AC997007F4B9B /* NSDate+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +59,19 @@
 		3D231B2D1F46856E007E1724 /* ElectricWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D231B311F46856E007E1724 /* ElectricWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricWaveUITests.m; sourceTree = "<group>"; };
 		3D231B331F46856E007E1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D231B3F1F4685CB007E1724 /* NSString+Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Converter.h"; sourceTree = "<group>"; };
-		3D231B401F4685CB007E1724 /* NSString+Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Converter.m"; sourceTree = "<group>"; };
-		3D231B421F4688A9007E1724 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
-		3D231B431F4688A9007E1724 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
-		3D231B451F4688B7007E1724 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		3D8277171F4ACB14004F652E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D8277231F4AD247004F652E /* ntp.hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntp.hosts; sourceTree = "<group>"; };
+		3D8277251F4ADA39004F652E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		3D8277271F4ADA61004F652E /* NSString+Time2Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time2Code.h"; sourceTree = "<group>"; };
+		3D8277281F4ADA61004F652E /* NSString+Time2Code.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time2Code.m"; sourceTree = "<group>"; };
+		3D82772A1F4ADBBD004F652E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D82772C1F4ADBCE004F652E /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		3D82772F1F4BD4E7004F652E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D928E911F4AC997007F4B9B /* NSString+Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Converter.h"; sourceTree = "<group>"; };
+		3D928E921F4AC997007F4B9B /* NSString+Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Converter.m"; sourceTree = "<group>"; };
+		3D928E941F4AC997007F4B9B /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
+		3D928E951F4AC997007F4B9B /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		3D928E961F4AC997007F4B9B /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8277321F4BD4F6004F652E /* AVFoundation.framework in Frameworks */,
+				3D8277311F4BD4F1004F652E /* AudioUnit.framework in Frameworks */,
+				3D8277301F4BD4E7004F652E /* AudioToolbox.framework in Frameworks */,
+				3D8277181F4ACB14004F652E /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,7 @@
 				3D231B251F46856E007E1724 /* ElectricWaveTests */,
 				3D231B301F46856E007E1724 /* ElectricWaveUITests */,
 				3D231B0A1F46856D007E1724 /* Products */,
+				3D8277161F4ACB14004F652E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,12 +135,9 @@
 				3D231B181F46856D007E1724 /* Assets.xcassets */,
 				3D231B1A1F46856D007E1724 /* LaunchScreen.storyboard */,
 				3D231B1D1F46856D007E1724 /* Info.plist */,
+				3D928E8F1F4AC997007F4B9B /* Category */,
+				3D928E971F4AC997007F4B9B /* ThirdParty */,
 				3D231B0C1F46856D007E1724 /* Supporting Files */,
-				3D231B3F1F4685CB007E1724 /* NSString+Converter.h */,
-				3D231B401F4685CB007E1724 /* NSString+Converter.m */,
-				3D231B421F4688A9007E1724 /* NSDate+YYAdd.h */,
-				3D231B431F4688A9007E1724 /* NSDate+YYAdd.m */,
-				3D231B451F4688B7007E1724 /* YYKitMacro.h */,
 			);
 			path = ElectricWave;
 			sourceTree = "<group>";
@@ -129,6 +145,7 @@
 		3D231B0C1F46856D007E1724 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D8277231F4AD247004F652E /* ntp.hosts */,
 				3D231B0D1F46856D007E1724 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +167,55 @@
 				3D231B331F46856E007E1724 /* Info.plist */,
 			);
 			path = ElectricWaveUITests;
+			sourceTree = "<group>";
+		};
+		3D8277161F4ACB14004F652E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D82772F1F4BD4E7004F652E /* AudioToolbox.framework */,
+				3D82772C1F4ADBCE004F652E /* CoreAudioKit.framework */,
+				3D82772A1F4ADBBD004F652E /* AVFoundation.framework */,
+				3D8277251F4ADA39004F652E /* AudioUnit.framework */,
+				3D8277171F4ACB14004F652E /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D928E8F1F4AC997007F4B9B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3D928E901F4AC997007F4B9B /* KKNSString */,
+				3D928E931F4AC997007F4B9B /* YYNSDate */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3D928E901F4AC997007F4B9B /* KKNSString */ = {
+			isa = PBXGroup;
+			children = (
+				3D928E911F4AC997007F4B9B /* NSString+Converter.h */,
+				3D928E921F4AC997007F4B9B /* NSString+Converter.m */,
+				3D8277271F4ADA61004F652E /* NSString+Time2Code.h */,
+				3D8277281F4ADA61004F652E /* NSString+Time2Code.m */,
+			);
+			path = KKNSString;
+			sourceTree = "<group>";
+		};
+		3D928E931F4AC997007F4B9B /* YYNSDate */ = {
+			isa = PBXGroup;
+			children = (
+				3D928E941F4AC997007F4B9B /* NSDate+YYAdd.h */,
+				3D928E951F4AC997007F4B9B /* NSDate+YYAdd.m */,
+				3D928E961F4AC997007F4B9B /* YYKitMacro.h */,
+			);
+			path = YYNSDate;
+			sourceTree = "<group>";
+		};
+		3D928E971F4AC997007F4B9B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +329,7 @@
 			files = (
 				3D231B1C1F46856D007E1724 /* LaunchScreen.storyboard in Resources */,
 				3D231B191F46856D007E1724 /* Assets.xcassets in Resources */,
+				3D8277241F4AD247004F652E /* ntp.hosts in Resources */,
 				3D231B171F46856D007E1724 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,11 +355,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8277291F4ADA61004F652E /* NSString+Time2Code.m in Sources */,
 				3D231B141F46856D007E1724 /* ViewController.m in Sources */,
 				3D231B111F46856D007E1724 /* AppDelegate.m in Sources */,
-				3D231B411F4685CB007E1724 /* NSString+Converter.m in Sources */,
+				3D928E981F4AC997007F4B9B /* NSString+Converter.m in Sources */,
 				3D231B0E1F46856D007E1724 /* main.m in Sources */,
-				3D231B441F4688A9007E1724 /* NSDate+YYAdd.m in Sources */,
+				3D928E991F4AC997007F4B9B /* NSDate+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +510,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ElectricWave/ThirdParty",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = ElectricWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ElectricWave/ThirdParty",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -454,8 +531,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z8WNJ978J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ElectricWave/ThirdParty",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = ElectricWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ElectricWave/ThirdParty",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Michio.ElectricWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

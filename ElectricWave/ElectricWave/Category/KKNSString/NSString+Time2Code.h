@@ -10,4 +10,6 @@
 
 @interface NSString (Time2Code)
 
++ (NSString *)timeToCodeWithTime:(NSDate *)time;
+
 @end
